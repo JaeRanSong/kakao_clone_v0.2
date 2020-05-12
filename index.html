@@ -41,24 +41,23 @@
       </div>
     </header>
     <main class="chats">
-      <ul class="chats__list">
-        <li class="chats__chat chat">
-          <a href="chat.html">
-            <div class="chat__column">
-              <div class="chat__avatar g-avatar">
-                <img src="images/cat.jpg" alt="chat__image" />
-              </div>
-              <div class="chat__content">
-                <span class="chat__username">Chacha</span>
-                <span class="chat__preview">going Home!!!</span>
-              </div>
-            </div>
-            <div class="chat__column">
-              <span class="chat__timestamp">Yesterday</span>
-            </div></a
-          >
-        </li>
-      </ul>
+      <a href="chat.html">
+      <div class="chats__friend friend friend--lg">
+        <div class="friend__column">
+          <img
+            src="images/cat.jpg"
+            alt="friend image"
+            class="m--avatar friend__avatar"
+          />
+          <div class="friend__content">
+            <span class="friend__name">Chacha </span>
+            <span class="friend__bottom-text">Wanna sleep</span>
+          </div>
+        </div></a>
+        <div class="friend__column">
+          <span class="chats__timestamp">March 8</span>
+        </div>
+      
     </main>
     <nav class="nav">
       <ul class="nav__list">
@@ -69,6 +68,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
             <i class="fas fa-comment"></i>
           </a>
         </li>
