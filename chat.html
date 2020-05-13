@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Chat | Kakao Clone</title>
   </head>
-  <body>
+  <body class="chat__body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">4:56</span>
@@ -27,7 +27,7 @@
     <header class="header">
       <div class="header__header-column">
         <a href="index.html" class="header__back-btn">
-          <i class="fas fa-arrow-left fa-2x"></i
+          <i class="fas fa-arrow-left"></i
         ></a>
         <h1 class="header__title">차오므입니다.</h1>
       </div>
@@ -47,14 +47,29 @@
           <img src="images/cat.jpg" class="g--avatar message__avatar" />
           <div class="message__content">
             <span class="message__autor">차오므</span>
-            <div class="message__bubble">날 쓰다듬어라</div>
+            <span class="message__bubble">날 쓰다듬어라</span>
           </div>
           <span class="message__timestamp">오후 11:03</span>
         </li>
-        <li class="incoming-message message">
+        <li class="sent-message message">
           <span class="message__timestamp">오후 11:03</span>
           <div class="message__content">
-            <div class="message__bubble">ok ok wait 1minute!</div>
+            <span class="message__bubble">ok ok wait 1minute!</span>
+          </div>
+        </li>
+
+        <li class="incoming-message message">
+          <img src="images/cat.jpg" class="g--avatar message__avatar" />
+          <div class="message__content">
+            <span class="message__autor">차오므</span>
+            <span class="message__bubble">When we were young</span>
+          </div>
+          <span class="message__timestamp">오후 11:04</span>
+        </li>
+        <li class="sent-message message">
+          <span class="message__timestamp">오후 11:05</span>
+          <div class="message__content">
+            <span class="message__bubble">yeeeeees i want too</span>
           </div>
         </li>
       </ul>
